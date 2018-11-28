@@ -13,8 +13,8 @@
     grid-row-gap: 20px;
 }
 
-.gridForSections {
-    grid-column: 1/end;
+.gridForSections { /*We can use section ID`s to edit every section as we want*/
+    grid-column: 1/end; 
     text-align: center;
 }
 
