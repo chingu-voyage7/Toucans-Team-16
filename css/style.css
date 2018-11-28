@@ -1,7 +1,20 @@
-h1 {
+
+/*Basic style*/
+* {
+    padding: 0;
+    margin: 0;
+    border: 1px solid red; /* I use this to check borders, spacing and everything.*/
+    font-family: 'Roboto', "Helvetica Neue", sans-serif;
+}
+
+#mainWrapper {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr); /* Use repeat if many columns needed*/
+    grid-row-gap: 20px;
+}
+
+.gridForSections {
+    grid-column: 1/end;
     text-align: center;
 }
 
-img {
-    margin-left: 40%;
-}
