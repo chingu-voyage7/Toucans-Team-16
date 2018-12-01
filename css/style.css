@@ -16,6 +16,7 @@
 .gridForSections { /*We can use section ID`s to edit every section as we want*/
     grid-column: 1/end; 
     text-align: center;
+    
 }
 
 
@@ -58,3 +59,16 @@
 
 
 /*Roxi code*/
+#section7{
+    display: grid;
+    grid-template-rows: 100vh;
+
+}
+#section8{
+    display: grid;
+    grid-template-rows: 100vh;
+}
+#footer{
+    display: grid;
+    grid-template-rows: 100vh;
+}
