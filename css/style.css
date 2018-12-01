@@ -67,10 +67,12 @@
 #section8{
     display: grid;
     grid-template-rows: 60px;
+    text-align: start;
 }
 #footer{
     display: grid;
     grid-template-rows: 60px;
+    text-align: start;
 }
 /*Section 7*/
 .cards-section7{
@@ -107,4 +109,8 @@
 #third-row{
     display: grid;
     grid-template-rows: 100px;
+}
+/*Footer*/
+#footer{
+    
 }
