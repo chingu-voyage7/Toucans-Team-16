@@ -61,14 +61,50 @@
 /*Roxi code*/
 #section7{
     display: grid;
-    grid-template-rows: 100vh;
-
+    grid-template-rows: 60px;
+    text-align: start;
 }
 #section8{
     display: grid;
-    grid-template-rows: 100vh;
+    grid-template-rows: 60px;
 }
 #footer{
     display: grid;
-    grid-template-rows: 100vh;
+    grid-template-rows: 60px;
+}
+/*Section 7*/
+.cards-section7{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 20px;
+}
+#first-row{
+    display: grid;
+    grid-template-rows: 250px;
+}
+#second-row{
+    display: grid; 
+    grid-template-rows: 40px;
+}
+#third-row{
+    display: grid;
+    grid-template-rows: 100px;
+}
+/*Section 8*/
+.cards-section8{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 20px;
+}
+#first-row{
+    display: grid;
+    grid-template-rows: 250px;
+}
+#second-row{
+    display: grid; 
+    grid-template-rows: 40px;
+}
+#third-row{
+    display: grid;
+    grid-template-rows: 100px;
 }
