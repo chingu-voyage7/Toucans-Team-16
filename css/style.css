@@ -90,9 +90,31 @@
     height: 60%;
 }
 
-.apartmentsSection {
+
+/* end of explore section */
+
+.supportSection {
     background-color: bisque;
     grid-column: 1/end;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 25px;
+}
+
+.support1 {
+    width: 50%;
+    height: 100%;
+}
+
+.support2 {
+    width: 50%;
+    height: 100%;
+}
+
+.support3 {
+    width: 50%;
+    height: 100%;
 }
 
 
