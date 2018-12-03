@@ -12,7 +12,7 @@
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     /* add rows for each section */
-    grid-template-rows: repeat(9, 1fr);
+    height: 100%;
     /* Use repeat if many columns needed*/
     grid-row-gap: 20px;
 }
@@ -21,21 +21,38 @@
 /*Kareem code*/
 
 .introSection {
+    display: grid;
     background-color: lightblue;
     grid-column: 1/end;
-    grid-row: 0/1;
 }
+
+#Card-Content {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    border: none;
+}
+
+#logo {
+    width: 45px;
+    height: 45px;
+}
+
+.signUpCard {
+    background-color: white;
+}
+
+
+/* End of intro section */
 
 .exploreSection {
     background-color: blueviolet;
     grid-column: 1/end;
-    grid-row: 1/2;
 }
 
 .apartmentsSection {
     background-color: bisque;
     grid-column: 1/end;
-    grid-row: 2/3;
 }
 
 
