@@ -1,60 +1,45 @@
-
 /*Basic style*/
+
 * {
     padding: 0;
     margin: 0;
-    border: 1px solid red; /* I use this to check borders, spacing and everything.*/
+    border: 1px solid red;
+    /* I use this to check borders, spacing and everything.*/
     font-family: 'Roboto', "Helvetica Neue", sans-serif;
 }
 
 #mainWrapper {
     display: grid;
-    grid-template-columns: repeat(12, 1fr); /* Use repeat if many columns needed*/
+    grid-template-columns: repeat(12, 1fr);
+    /* add rows for each section */
+    grid-template-rows: repeat(9, 1fr);
+    /* Use repeat if many columns needed*/
     grid-row-gap: 20px;
 }
-
-.gridForSections { /*We can use section ID`s to edit every section as we want*/
-    grid-column: 1/end; 
-    text-align: center;
-}
-
-
-
 
 
 /*Kareem code*/
 
+.introSection {
+    background-color: lightblue;
+    grid-column: 1/end;
+    grid-row: 0/1;
+}
 
+.exploreSection {
+    background-color: blueviolet;
+    grid-column: 1/end;
+    grid-row: 1/2;
+}
 
-
-
-
-
-
-
-
-
-
+.apartmentsSection {
+    background-color: bisque;
+    grid-column: 1/end;
+    grid-row: 2/3;
+}
 
 
 /*Emils code*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /*Roxi code*/
