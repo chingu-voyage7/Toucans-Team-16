@@ -63,11 +63,17 @@
     display: grid;
     grid-template-rows: 60px;
     text-align: start;
+    margin-left: 60px;
+    margin-right: 60px;
+    height: 600px;
 }
 #section8{
     display: grid;
     grid-template-rows: 60px;
     text-align: start;
+    margin-left: 60px;
+    margin-right: 60px;
+    height: 600px;
 }
 #footer{
     display: grid;
@@ -97,6 +103,7 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 20px;
+    
 }
 #first-row{
     display: grid;
