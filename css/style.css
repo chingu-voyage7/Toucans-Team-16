@@ -3,7 +3,6 @@
 * {
     padding: 0;
     margin: 0;
-    border: 1px solid red;
     /* I use this to check borders, spacing and everything.*/
     font-family: 'Roboto', "Helvetica Neue", sans-serif;
 }
@@ -12,6 +11,7 @@
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     /* add rows for each section */
+    grid-template-rows: 80%;
     height: 100%;
     /* Use repeat if many columns needed*/
     grid-row-gap: 20px;
@@ -22,24 +22,33 @@
 
 .introSection {
     display: grid;
-    background-color: lightblue;
     grid-column: 1/end;
+    grid-row: 0/1;
+    background-image: url('https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/aNKqAFb/videoblocks-district-with-new-apartment-houses-on-the-background-of-clear-blue-sky-from-below_s0j3tncce_thumbnail-full01.png');
+    background-size: cover;
+}
+
+.signUpCard {
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    align-items: center;
+    height: 70%;
+    width: 35%;
+    border: 2px black solid;
+    margin-left: 10px;
+    margin-top: 10px;
 }
 
 #Card-Content {
     display: flex;
     flex-direction: column;
-    padding: 0;
     border: none;
 }
 
 #logo {
     width: 45px;
     height: 45px;
-}
-
-.signUpCard {
-    background-color: white;
 }
 
 
