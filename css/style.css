@@ -40,10 +40,10 @@
 /*Emils code*/
 
 /*This will set one page size 100% of viewport*/
-/*THIS IS NOT WORKING SMALLER SCREEN SIZES*/
+/*THIS IS NOT WORKING SMALLER SCREEN SIZES
 #section4, #section5, #section6 {
     height: 100vh;
-}
+}*/
 
 #section4 h3, #section5 h3, #section6 h3 {
     grid-column: 1/3;
