@@ -8,46 +8,293 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Roboto:400" rel="stylesheet">
     <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
+    <link rel="stylesheet" href="https://icono-49d6.kxcdn.com/icono.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
     <div id="mainWrapper">
 
-        <!--Kareems part-->>
-        <div id="headerIntro" class="gridForSections">
-            <h1>Airbnb</h1>
-            <h2>Header and main intro page</h2>
-            <h3>Testing branches</h3>
-        </div>
-        <div id="section2" class="gridForSections">
-            <h1>Airbnb</h1>
-            <h3>Explore Airbnb</h3>
-        </div>
-        <div id="section3" class="gridForSections">
-            <h1>Airbnb</h1>
-            <h3>Roxi city apartments</h3>
+        <!--Kareems part-->
+        <div id="headerIntro" class="introSection">
+            <div class="signUpContainer">
+                <img src="img/testLogo.png" id="logo">
+
+                <div class="signUpCard">
+                    <h1> Find Homes in AirBnB </h3>
+                        <p> Discover entire homes and private rooms perfect for any trip. </p>
+                        <form id="Card-Content">
+                            <label>
+                            Where: 
+                            <input type="text" placeholder="Destination, city, address" id="addressBox">
+                        </label>
+
+                            <label>
+                            Check in:
+                            <input type="date" id="checkIn">
+                        </label>
+
+                            <label>
+                            Check out:
+                            <input type="date" id="checkOut">
+                        </label>
+
+                            <label>
+                            Adults:
+                            <select>
+                                <option value="1a">1 adult</option>
+                                <option value="2a">2 adults</option>
+                                <option value="3a">3 adults</option>
+                                <option value="4a">4 adults</option>
+                                <option value="5a">5 adults</option>
+                                <option value="6a">6 adults</option>
+                                <option value="7a">7 adults</option>
+                                <option value="8a">8 adults</option>
+                                <option value="9a">9 adults</option>
+                                <option value="10a">10 adults</option>
+                                <option value="11a">11 adults</option>
+                                <option value="12a">12 adults</option>
+                                <option value="13a">13 adults</option>
+                                <option value="14a">14 adults</option>
+                                <option value="15a">15 adults</option>
+                                <option value="16a">16 adults</option>
+
+                            </select>
+                        </label>
+                            <label>
+                            Children:
+                            <select>
+                                <option value="1c">1 child</option>
+                                <option value="2c">2 children</option>
+                                <option value="3c">3 children</option>
+                                <option value="4c">4 children</option>
+                                <option value="5c">5 children</option>
+                                <option value="6c">6 children</option>
+                                <option value="7c">7 children</option>
+                                <option value="8c">8 children</option>
+                                <option value="9c">9 children</option>
+                                <option value="10c">10 children</option>
+                                <option value="11c">11 children</option>
+                                <option value="12c">12 children</option>
+                                <option value="13c">13 children</option>
+                                <option value="14c">14 children</option>
+                                <option value="15c">15 children</option>
+                                <option value="16c">16 children</option>
+                            </select>
+                        </label>
+                            <button>search</button>
+                        </form>
+                </div>
+            </div>
         </div>
 
+        <div id="section2" class="exploreSection">
+            <h1>What guests are saying about homes in United States</h1>
+            <i class="icono-smile"></i>
+            <p>United States homes were rated 4.8 out of 5 stars with 29,000,000+ reviews</p>
 
-        <!--Emils part-->>
-        <div id="section4" class="gridForSections">
-            <h1>Airbnb</h1>
-            <h3>Emils city apartments</h3>
-            <h4>MY CITYS</h4>
+            <div class="exploreCardContainer">
+                <div id="card1">
+                    <img id="house1" src="https://i.pinimg.com/originals/14/82/98/148298249d995e7ee013546002e144ab.jpg">
+                    <p>House Number One</p>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <p>Jackie met us at the front door, later than we expected to arrive, as we had been on the road driving for 14 hours, from San Francisco. She </p>
+                </div>
+                <div id="card2">
+                    <img id="house1" src="https://i.pinimg.com/originals/14/82/98/148298249d995e7ee013546002e144ab.jpg">
+                    <p>House Number Two</p>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <p>Jackie met us at the front door, later than we expected to arrive, as we had been on the road driving for 14 hours, from San Francisco. She </p>
+                </div>
+                <div id="card3">
+                    <img id="house1" src="https://i.pinimg.com/originals/14/82/98/148298249d995e7ee013546002e144ab.jpg">
+                    <p>House Number Three</p>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <p>Jackie met us at the front door, later than we expected to arrive, as we had been on the road driving for 14 hours, from San Francisco. She </p>
+                </div>
+            </div>
+
         </div>
-        <div id="section5" class="gridForSections">
-            <h1>Airbnb</h1>
-            <h3>Abdul city apartments</h3>
-        </div>
-        <div id="section6" class="gridForSections">
-            <h1>Airbnb</h1>
-            <h3>Homes around the world</h3>
+
+        <div id="section3" class="supportSection">
+            <div class="support1">
+                <i class="icono-heart"></i>
+                <b>24/7 customer support</b>
+                <p>Day or night, we’re here for you. Talk to our support team from anywhere in the world, any hour of day.</p>
+            </div>
+            <div class="support2">
+                <i class="icono-home"></i>
+                <b>Global hospitality standards</b>
+                <p>Guests review their hosts after each stay. All hosts must maintain a minimum rating and our hospitality standards to be on Airbnb.</p>
+            </div>
+            <div class="support3">
+                <i class="icono-user"></i>
+                <b>5-star hosts</b>
+                <p>From fresh-pressed sheets to tips on where to get the best brunch, our hosts are full of local hospitality.</p>
+            </div>
         </div>
 
 
         
+
+  
+       <!--Emils part-->
+        <!--
+            This part have 3 sections:
+            1. Riga/Latvia citys
+            2. Ammar Citys (I will study Jordan geography also :D)
+            3. Homes around the world
+        -->
+
+
+        <!--SECTION 4 (RIGA/LATVIA)-->
+        <div id="section4" class="gridForSections">
+            <h3>Riga apartments</h3>
+            <div id="rigaCards">
+                <div class="rigaA1">
+                    <!--Citys name will go here-->
+                </div>
+                <div class="rigaA1">
+                    <!--Citys name will go here-->
+                </div>
+                <div class="rigaA1">
+                    <!--Citys name will go here-->
+                </div>
+                <div class="rigaA1">
+                    <!--Citys name will go here-->
+                </div>
+                <div class="rigaA1">
+                    <!--Citys name will go here-->
+                </div>
+            </div>
+            <h3>Experiances in the spotlight</h3>
+            <div id="riga2Cards">
+                <div class="rigaA2">
+                    <img src="img/test.jpg" alt="">
+                    <p>Image name/apartment name</p>
+                    <p>Description</p>
+                    <p>Price</p>
+                </div>
+                <div class="rigaA2">
+                    <img src="img/test.jpg" alt="">
+                    <p>Image name/apartment name</p>
+                    <p>Description</p>
+                    <p>Price</p>
+                </div>
+                <div class="rigaA2">
+                    <img src="img/test.jpg" alt="">
+                    <p>Image name/apartment name</p>
+                    <p>Description</p>
+                    <p>Price</p>
+                </div>
+            </div>
+        </div>
+
+        <!--SECTION 5 (AMMAN/JORDAN)-->
+        <div id="section5" class="gridForSections">
+            <h3>Amman apartments</h3>
+            <div id="ammanCards">
+                <div class="ammanA1">
+                    <!--Citys/street/home name will go here-->
+                </div>
+                <div class="ammanA1">
+                    <!--Citys/street/home name will go here-->
+                </div>
+                <div class="ammanA1">
+                    <!--Citys/street/home name will go here-->
+                </div>
+                <div class="ammanA1">
+                    <!--Citys/street/home name will go here-->
+                </div>
+                <div class="ammanA1">
+                    <!--Citys/street/home name will go here-->
+                </div>
+            </div>
+            <div id="amman2Cards">
+                <div id="amman2cardContent">
+                    <h1>DUMMY TEXT</h1>
+                    <button>LEARN MORE ></button>
+                </div>
+            </div>
+        </div>
+
+        <!--SECTION 6 (Homes around the world)-->
+        <div id="section6" class="gridForSections">
+            <h3>Homes around the world</h3>
+            <div class="sec6content">
+                <div class="sec6Card">
+                    <img src="img/test.jpg" alt="">
+                    <p>Image name/apartment name</p>
+                    <p>Description</p>
+                    <p>Price</p>
+                </div>
+                <div class="sec6Card">
+                    <img src="img/test.jpg" alt="">
+                    <p>Image name/apartment name</p>
+                    <p>Description</p>
+                    <p>Price</p>
+                </div>
+                <div class="sec6Card">
+                    <img src="img/test.jpg" alt="">
+                    <p>Image name/apartment name</p>
+                    <p>Description</p>
+                    <p>Price</p>
+                </div>
+                <div class="sec6Card">
+                    <img src="img/test.jpg" alt="">
+                    <p>Image name/apartment name</p>
+                    <p>Description</p>
+                    <p>Price</p>
+                </div>
+                <div class="sec6Card">
+                    <img src="img/test.jpg" alt="">
+                    <p>Image name/apartment name</p>
+                    <p>Description</p>
+                    <p>Price</p>
+                </div>
+                <div class="sec6Card">
+                    <img src="img/test.jpg" alt="">
+                    <p>Image name/apartment name</p>
+                    <p>Description</p>
+                    <p>Price</p>
+                </div>
+                <div class="sec6Card">
+                    <img src="img/test.jpg" alt="">
+                    <p>Image name/apartment name</p>
+                    <p>Description</p>
+                    <p>Price</p>
+                </div>
+                <div class="sec6Card">
+                    <img src="img/test.jpg" alt="">
+                    <p>Image name/apartment name</p>
+                    <p>Description</p>
+                    <p>Price</p>
+                </div>
+
+            </div>
+        </div>
+
+
+<<<<<<< HEAD
+        
         <!--Roxi part-->
     
+=======
+
+        <!--Roxi part-->
+>>>>>>> development
         <div id="section7" class="gridForSections">
             <h1>Homes for your kind of trip</h1>
             <h3>Book one of these unique spots.</h3>
@@ -90,7 +337,13 @@
             <h1>Terms, Privacy, Currency & More</h1>
             
         </div>
+<<<<<<< HEAD
     
+=======
+    </div>
+
+
+>>>>>>> development
 
 </body>
 <script src="js/app.js"></script>
