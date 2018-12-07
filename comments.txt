@@ -4,5 +4,5 @@ I will test push request to development branch.
 
 Now I will test how I create new branch from development and then I pull it back to development branch!
 
-Git push test from home
+Git push test from home test
 
