@@ -234,7 +234,7 @@ h1, h3, p{
 }
 #second-row{
     display: grid; 
-    grid-template-rows: 12px;
+    grid-template-rows: 5px;
 }
 #third-row{
     display: grid;
@@ -252,4 +252,5 @@ h1, h3, p{
     position: fixed; bottom: 20px;
     right: 20px;
     font-size: x-small;
+    background: white;
 }
