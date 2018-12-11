@@ -217,7 +217,11 @@
 .cards-section7{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-column-gap: 20px;
+    grid-column-gap: 20px;   
+}
+.cards-section7 img{
+    height: 232px;
+    width: 307px;
     
 }
 #first-row{
@@ -237,8 +241,6 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 20px;
-    
-    
 }
 
 /*Footer*/
