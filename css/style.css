@@ -208,6 +208,9 @@
     margin-right: 60px;
     height: 600px;
 }
+h1, h3, p{
+    color: rgb(72, 72, 72);
+}
 #footer{
     display: grid;
     grid-template-rows: 60px;
@@ -220,8 +223,9 @@
     grid-column-gap: 20px;   
 }
 .cards-section7 img{
-    height: 232px;
-    width: 307px;
+    height: 250px;
+    width: 375px;
+    border-radius: 4px;
     
 }
 #first-row{
@@ -230,7 +234,7 @@
 }
 #second-row{
     display: grid; 
-    grid-template-rows: 40px;
+    grid-template-rows: 12px;
 }
 #third-row{
     display: grid;
