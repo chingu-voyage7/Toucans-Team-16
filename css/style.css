@@ -16,6 +16,11 @@
     grid-row-gap: 20px;
 }
 
+.gridForSections { /*We can use section ID`s to edit every section as we want*/
+    grid-column: 1/end; 
+    text-align: center;
+}
+
 
 /*Kareem code*/
 
@@ -138,7 +143,7 @@
 
 /*Background image just fo testing*/
 .rigaA1, .ammanA1, #amman2Cards {
-    background-image: url(../img/test.jpg);
+    background-image: url(../img/backgroundtest.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 50%;
@@ -195,7 +200,6 @@
 }
 
 /*Roxi code*/
-<<<<<<< HEAD
 #section7{
     display: grid;
     grid-template-rows: 60px;
@@ -260,5 +264,3 @@
     right: 20px;
     font-size: x-small;
 }
-=======
->>>>>>> development
