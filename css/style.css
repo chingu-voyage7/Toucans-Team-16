@@ -3,6 +3,7 @@
 * {
     padding: 0;
     margin: 0;
+    /border: 1px red solid;
     /* I use this to check borders, spacing and everything.*/
     font-family: 'Roboto', "Helvetica Neue", sans-serif;
 }
@@ -135,69 +136,208 @@
     height: 100vh;
 }*/
 
-#section4 h3, #section5 h3, #section6 h3 {
+#section4 h3,
+#section5 h3,
+#section6 h3 {
     grid-column: 1/3;
     text-align: left;
-    border: 5px blue solid;
-}
-
-/*Background image just fo testing*/
-.rigaA1, .ammanA1, #amman2Cards {
-    background-image: url(../img/backgroundtest.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
+    font-size: 25px;
+    margin: 35px 60px 35px 60px;
 }
 
 /*As 5 cards in row are in two sections, same style will be for both cards rows*/
 #rigaCards, #ammanCards {
     display: grid;
-    grid-template-columns: repeat(5, 2fr); /* Use repeat if many columns needed*/
-    margin: 35px 25px 35px 25px;
+    grid-template-columns: repeat(5, 2fr);
+    /* Use repeat if many columns needed*/
+    margin: 35px 60px 35px 60px;
     grid-gap: 50px;
-    grid-template-rows: minmax(250px, auto);
+    grid-template-rows: minmax(300px, auto);
 }
+
+/*Emils citys cards*/
+.fiveCardDesign {
+    display: grid;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 8px 19px 1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 8px 19px 1px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 8px 19px 1px rgba(0, 0, 0, 0.75);
+}
+
+.fiveCardDesign p {
+    color: white;
+    align-self: end;
+    margin-bottom: 10px;
+    font-size: 25px;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+/*Riga*/
+#rigaBackground {
+    background-image: url(https://blog.radissonblu.com/wp-content/uploads/2014/03/View-of-Riga-town-from-above-and-St.-Peters-cathedral.jpg);
+}
+
+/*Liepaja*/
+#liepajaBackground {
+    background-image: url(https://faili.liepaja.lv/liepaja-skats-uz-ezeru-462x313.jpg);
+}
+
+/*Jelgava*/
+
+#jelgavaBackground {
+    background-image: url(http://www.mf.llu.lv/sites/mf/files/inline-images/00%20%282%29.jpg);
+}
+
+/*Valmiera*/
+#valmieraBackground {
+    background-image: url(https://www.entergauja.com/userfiles/images/galery/news-events/events/2018/valmieras-pilsetas-svetki-1/152957894443.jpg);
+}
+
+/*Daugavpils*/
+#daugavpilsBackground {
+    background-image: url(http://www.visitdaugavpils.lv/wp-content/uploads/2017/08/liksnas-romas-katolu-draudzes-vissvetakas-jezus-sirds-baznica-foto4.jpg);
+}
+
+/*Amman*/
+#ammanBackground {
+    background-image: url(http://chantiersdumaroc.ma/wp-content/uploads/2016/12/tour-amman.jpg);
+}
+
+/*Zarqa*/
+#zarqaBackground {
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/4/42/Qurtobah%2C_Az-Zarqa%2C_Jordan_-_panoramio_%283%29.jpg);
+}
+
+/*Irbid*/
+#irbidBackground {
+    background-image: url(https://umayyad.eu/sites/default/files/styles/md_slider_48_bg/public/Ancient%20ruins%20of%20Um%20Qais%20with%20Gadara%20Town_shutterstock_275166851_rsz_text.jpg?itok=CL2GF8k9);
+}
+
+/*Russeifa*/
+#russeifaBackground {
+    background-image: url(https://allthecities.com/city/get-full-image?id=1008898);
+}
+
+/*Al-Quwaysimah*/
+#alqBackground {
+    background-image: url(http://www.tralev.com/image?id=78394&displayWidth=480);
+}
+
+
 
 
 #riga2Cards {
     display: grid;
-    grid-template-columns: repeat(3, 2fr); /* Use repeat if many columns needed*/
-    grid-template-rows: repaet(2, minmax(150px auto));
-    margin: 35px 25px 35px 25px;
+    grid-template-columns: repeat(3, 1fr);
+    /* Use repeat if many columns needed*/
+    /*grid-template-rows: repaet(2, minmax(150px, auto));*/
+    margin: 35px 60px 35px 60px;
     grid-gap: 50px;
     text-align: left;
 }
 
+.rigaA2 {
+    display: grid;
+    grid-template-rows: 250px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 8px 19px 1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 8px 19px 1px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 8px 19px 1px rgba(0, 0, 0, 0.75);
+    padding-bottom: 10px;
+}
+
+.rigaA2 h5, .rigaA2 h2, .rigaA2 p {
+    padding: 0px 10px;
+    color: #484848;
+}
+
+.rigaA2 img, .sec6Card img  {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+
 #amman2Cards {
     display: grid;
-    grid-template-columns: repeat(4, 1fr); /* Use repeat if many columns needed*/
+    grid-template-columns: repeat(4, 1fr);
+    /* Use repeat if many columns needed*/
     grid-template-rows: 400px;
-    margin: 35px 25px 35px 25px;
+    margin: 80px 60px 35px 60px;
     grid-gap: 50px;
     text-align: left;
     align-items: center;
     padding-left: 100px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 90% 20%;
+    background-image: url(https://a0.muscache.com/pictures/8c912c49-6915-43ad-8f14-6e43523b73c0.jpg);
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 8px 19px 1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 8px 19px 1px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 8px 19px 1px rgba(0, 0, 0, 0.75);
 }
 
-#amman2cardContent button{
+#amman2cardContent {
+    grid-column: 1/3;
+}
+
+#amman2cardContent h1 {
+    color: white;
+    font-size: 60px;
+}
+
+#amman2cardContent button {
     padding: 10px 30px;
     margin: 10px 0px;
     font-size: 20px;
+    background-color: #ffffff;
+    color: #484848;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 800;
+    border: none;
 }
 
+/*section 6*/
+/*2 x 4 cards*/
 .sec6content {
     display: grid;
-    grid-template-columns: repeat(4, 1fr); /* Use repeat if many columns needed*/
-    grid-template-rows: repeat(2, minmax(200px, auto));
-    margin: 35px 25px 35px 25px;
-    grid-gap: 50px;
+    grid-template-columns: repeat(4, 1fr);
+    /* Use repeat if many columns needed*/
+    grid-template-rows: repeat(2, minmax(300px, auto));
+    margin: 35px 60px 35px 60px;
+    grid-gap: 70px;
 }
 
-.rigaA2 img, .sec6Card img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+.sec6Card {
+    display: grid;
+    grid-template-rows: 200px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 8px 19px 1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 8px 19px 1px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 8px 19px 1px rgba(0, 0, 0, 0.75);
+    padding-bottom: 10px;
+    text-align: left;
+    padding-bottom: 10px;
 }
+
+.sec6Card h5, .sec6Card h2, .sec6Card p {
+    padding: 0px 10px;
+    color: #484848;
+}
+
+.sec6Card h5, .rigaA2 h5 {
+    padding: 7px 10px 0px 10px;;
+}
+
+
 
 /*Roxi code*/
 #section7{
