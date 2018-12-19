@@ -200,7 +200,7 @@
 }
 
 /*Roxi code*/
-#section7{
+#section7, #section8{
     display: grid;
     grid-template-rows: 60px;
     text-align: start;
@@ -208,59 +208,60 @@
     margin-right: 60px;
     height: 600px;
 }
-#section8{
-    display: grid;
-    grid-template-rows: 60px;
-    text-align: start;
-    margin-left: 60px;
-    margin-right: 60px;
-    height: 600px;
+h1, h3, p{
+    color: rgb(72, 72, 72);
+    font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
+
 #footer{
     display: grid;
-    grid-template-rows: 60px;
-    text-align: start;
+    grid-template-rows: 45px;
+    border-radius: 3px;
+    align-items: center;
+    font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 15px;
+}
+h1{
+    font-size: 16px;
 }
 /*Section 7*/
 .cards-section7{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-column-gap: 20px;
+    grid-column-gap: 20px;   
+}
+.cards-section7 img, .cards-section8 img{
+    height: 250px;
+    width: 375px;
+    border-radius: 4px;
 }
 #first-row{
     display: grid;
-    grid-template-rows: 250px;
+    grid-template-rows: 222px;
 }
 #second-row{
     display: grid; 
-    grid-template-rows: 40px;
+    grid-template-rows: 1px;
+    font-size: 12px;
+    font-weight: 700;
 }
 #third-row{
     display: grid;
-    grid-template-rows: 100px;
+    grid-template-rows: 33px;
+    font-size: 15px;
 }
 /*Section 8*/
 .cards-section8{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 20px;
-    
 }
-#first-row{
-    display: grid;
-    grid-template-rows: 250px;
-}
-#second-row{
-    display: grid; 
-    grid-template-rows: 40px;
-}
-#third-row{
-    display: grid;
-    grid-template-rows: 100px;
-}
+
+
 /*Footer*/
 #footer{
     position: fixed; bottom: 20px;
     right: 20px;
     font-size: x-small;
+    background: white;
 }
