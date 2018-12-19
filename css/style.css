@@ -215,8 +215,11 @@ h1, h3, p{
 
 #footer{
     display: grid;
-    grid-template-rows: 60px;
-    text-align: start;
+    grid-template-rows: 45px;
+    text-align: center;
+    border-radius: 3px;
+    align-items: center;
+    
 }
 /*Section 7*/
 .cards-section7{
