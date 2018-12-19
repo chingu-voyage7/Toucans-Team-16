@@ -236,11 +236,13 @@ h1, h3, p{
 #second-row{
     display: grid; 
     grid-template-rows: 1px;
+    font-size: 12px;
+    font-weight: 700;
 }
 #third-row{
     display: grid;
     grid-template-rows: 33px;
-    font-size: 16px;
+    font-size: 15px;
 }
 /*Section 8*/
 .cards-section8{
