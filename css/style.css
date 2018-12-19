@@ -216,10 +216,13 @@ h1, h3, p{
 #footer{
     display: grid;
     grid-template-rows: 45px;
-    text-align: center;
     border-radius: 3px;
     align-items: center;
-    
+    font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 15px;
+}
+h1{
+    font-size: 16px;
 }
 /*Section 7*/
 .cards-section7{
