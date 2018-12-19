@@ -222,11 +222,10 @@ h1, h3, p{
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 20px;   
 }
-.cards-section7 img{
+.cards-section7 img, .cards-section8 img{
     height: 250px;
     width: 375px;
     border-radius: 4px;
-    
 }
 #first-row{
     display: grid;
@@ -246,6 +245,7 @@ h1, h3, p{
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 20px;
 }
+
 
 /*Footer*/
 #footer{
