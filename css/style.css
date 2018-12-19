@@ -210,7 +210,9 @@
 }
 h1, h3, p{
     color: rgb(72, 72, 72);
+    font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
+
 #footer{
     display: grid;
     grid-template-rows: 60px;
@@ -229,15 +231,16 @@ h1, h3, p{
 }
 #first-row{
     display: grid;
-    grid-template-rows: 250px;
+    grid-template-rows: 222px;
 }
 #second-row{
     display: grid; 
-    grid-template-rows: 5px;
+    grid-template-rows: 1px;
 }
 #third-row{
     display: grid;
-    grid-template-rows: 53px;
+    grid-template-rows: 33px;
+    font-size: 16px;
 }
 /*Section 8*/
 .cards-section8{
