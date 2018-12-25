@@ -3,7 +3,7 @@
 * {
     padding: 0;
     margin: 0;
-    /border: 1px red solid;
+    border: 1px red solid;
     /* I use this to check borders, spacing and everything.*/
     font-family: 'Roboto', "Helvetica Neue", sans-serif;
 }
