@@ -3,7 +3,6 @@
 * {
     padding: 0;
     margin: 0;
-    border: 1px red solid;
     /* I use this to check borders, spacing and everything.*/
     font-family: 'Roboto', "Helvetica Neue", sans-serif;
 }
@@ -28,8 +27,8 @@
 .introSection {
     display: grid;
     grid-column: 1/end;
-    grid-row: 0/1;
-    background-image: url('https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/aNKqAFb/videoblocks-district-with-new-apartment-houses-on-the-background-of-clear-blue-sky-from-below_s0j3tncce_thumbnail-full01.png');
+    height: 100vh;
+    background-image: url('https://freshome.com/wp-content/uploads/2015/05/white-kitchen-with-large-windows.png');
     background-size: cover;
 }
 
@@ -37,19 +36,68 @@
     display: flex;
     background-color: white;
     flex-direction: column;
-    align-items: center;
-    height: 70%;
-    width: 35%;
-    border: 2px black solid;
+    height: 80%;
+    width: 40%;
     margin-left: 10px;
     margin-top: 10px;
+}
+
+.signUpCard h1{
+    
 }
 
 #Card-Content {
     display: flex;
     flex-direction: column;
-    border: none;
+    /* align-items: center; */
+    justify-content: space-around;
+    width: 100%;
+    height: 100%;
+    margin: 12px;
 }
+
+#Card-Content label{
+    font-size: 20px;
+    width: 90%;
+}
+
+#Card-Content input[type=text]{
+    width: 100%;
+    height: 7vh;
+    font-size: 30px;
+}
+
+#Card-Content input[type=date]{
+    width: 15.9vw;
+    height: 7vh;
+
+
+}
+#Card-Content button{
+    width: 95%;
+    height: 10vh;
+    font-size: 2em;
+
+}
+
+
+#checkInContainer{
+    display: flex;
+    flex-direction: row;
+    font-size: 4px;
+}
+
+#selectContainer{
+    display: flex;
+    flex-direction: row;   
+}
+
+#selectContainer select{
+    width: 15.9vw;
+    height: 7vh;
+    font-size: 1em;
+}
+
 
 
 #logo {
