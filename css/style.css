@@ -111,6 +111,7 @@
 
 .exploreSection {
     background-color: white;
+    height: 100vh;
     grid-column: 1/end;
     grid-row: 2/3;
 }
@@ -129,17 +130,19 @@
 
 #card1 {
     grid-column: 2/3;
-    border: 2px black solid;
+    width: 30vw;
 }
 
 #card2 {
     grid-column: 3/4;
-    border: 2px black solid;
+    width: 30vw;
+
 }
 
 #card3 {
     grid-column: 4/5;
-    border: 2px black solid;
+    width: 30vw;
+
 }
 
 #house1 {
